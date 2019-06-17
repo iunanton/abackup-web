@@ -1,0 +1,124 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// TinyMCE
+//@import '~tinymce/skins/ui/oxide/skin.css';
+//@import '~tinymce/skins/ui/oxide/content.css';
+//@import '~tinymce/skins/ui/oxide/skin.mobile.css';
+//@import '~tinymce/skins/ui/oxide/content.mobile.css';
+//@import '~tinymce/skins/content/default/content.css';
+
+.ec-calendar {
+  display: block;
+  overflow-x: auto;
+}
+
+.ec-calendar-holder {
+  display: block;
+  min-width: 1068px;
+}
+
+.ec-weekheader {
+  display: flex;
+}
+
+.ec-weekheader-day {
+  flex: 1;
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #757575;
+  padding: 4px;
+  padding-bottom: 0;
+}
+
+.ec-weekheader-day:first-child {
+  border-left: 1px solid #e0e0e0;
+}
+
+.ec-week {
+  flex: 1;
+  display: flex;
+}
+
+.ec-day {
+  flex: 1;
+  min-height: 100px;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 4px;
+}
+
+.ec-day:first-child {
+  border-left: 1px solid #e0e0e0;
+}
+
+.ec-dom {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.ec-today {
+  border-radius: 12px;
+  background-color: rgb(233, 30, 99);
+  color: #fff;
+}
+
+.ec-out-calendar {
+  background-color: rgb(247, 247, 247);
+  //color: #757575;
+}
+
+.ec-calendar-notice {
+  font-size: 14px;
+  color: #757575;
+}
+
+.ec-calendar-event {
+  display: inline-block;
+  padding: 0 .5em;
+  //border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  white-space: nowrap;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.03); //#ffeaa7;
+  //background-color: rgb(33, 150, 243);
+  //color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.ec-calendar-event:hover {
+  background-color: #ffeaa7; //#fdcb6e; //rgb(33, 150, 243);
+  //color: rgb(255, 255, 255);
+}
+
+.ec-out-calendar .ec-calendar-event  {
+  background-color: rgb(144, 202, 249);
+}
+
+textarea {
+   resize: none;
+}
+
+.btn-tn {
+  padding: 0.125rem 0.25rem;
+  font-size: 0.7875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+footer {
+  font-size: 16px;
+}
+
+.ck-editor__editable {
+  min-height: 500px;
+ }
