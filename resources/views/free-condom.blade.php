@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header bg-free-condom">
                     <!--<img src="{{ asset('images/free_condom_' . $locale . '.png') }}" width="199" heigth="99">-->
-                    <h4 class="mb-0">{{ _('Free Condom') }}</h4>
+                    <h4 class="mb-0">{{ __('Free Condom') }}</h4>
                 </div>
 
                 <div class="card-body bg-free-condom-light">

@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header bg-videos">
                     <!--<img src="{{ asset('images/videos_' . $locale . '.png') }}" width="199" heigth="99">-->
-                    <h4 class="mb-0">{{ _('Videos') }}</h4>
+                    <h4 class="mb-0">{{ __('Videos') }}</h4>
                 </div>
 
                 <div class="card-body bg-videos-light">

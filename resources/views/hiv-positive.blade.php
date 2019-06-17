@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header bg-hiv-positive">
                     <!--<img src="{{ asset('images/hiv_positive_' . $locale . '.png') }}" width="199" heigth="99">-->
-                    <h4 class="mb-0">{{ _('HIV Positive') }}</h4>
+                    <h4 class="mb-0">{{ __('HIV Positive') }}</h4>
                 </div>
 
                 <div class="card-body bg-hiv-positive-light">

@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header bg-join-us">
                     <!--<img src="{{ asset('images/join_us_' . $locale . '.png') }}" width="199" heigth="99">-->
-                    <h4 class="mb-0">{{ _('Join Us') }}</h4>
+                    <h4 class="mb-0">{{ __('Join Us') }}</h4>
                 </div>
 
                 <div class="card-body bg-join-us-light">

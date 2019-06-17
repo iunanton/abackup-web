@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header bg-about-us">
                     <!--<img src="{{ asset('images/about_us_' . app()->getLocale() . '.png') }}" width="199" heigth="99">-->
-                    <h4 class="mb-0">{{ _('About Us') }}</h4>
+                    <h4 class="mb-0">{{ __('About Us') }}</h4>
                 </div>
 
                 <div class="card-body bg-about-us-light">
