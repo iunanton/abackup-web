@@ -104,6 +104,10 @@
   background-color: rgb(144, 202, 249);
 }
 
+html {
+  @extend .bg-secondary;
+}
+
 textarea {
    resize: none;
 }
